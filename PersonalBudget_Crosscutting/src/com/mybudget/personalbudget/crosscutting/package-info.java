@@ -1,0 +1,1 @@
+package com.mybudget.personalbudget.crosscutting;
