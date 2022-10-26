@@ -13,13 +13,14 @@ public class PersonDTO {
 	private String completeName;
 	
 	
+	//Constructor 1
 	public PersonDTO() {
 		setId("");
 		setIdCard("");
 		setFirstName("");
 		setMiddleName("");
-		setFirtstSurname();
-		setSecondSurName();
+		setFirtstSurname("");
+		setSecondSurName("");
 		setName("");
 		setLastName("");
 		setCompleteName("");
@@ -27,7 +28,8 @@ public class PersonDTO {
 		
 	}
 	
-	//cosntructor
+	//cosntructor 2
+	@SuppressWarnings("squid:S107")// con esto le decimos a sonarlint que omita la advertencia para estemetodo
 	public PersonDTO(final String id,final String idCard,final String firstName,final String middleName,final String firtstSurname,
 			final String secondSurName,final String name,final String lastName,final String completeName) {
 		setId(id);
@@ -41,85 +43,114 @@ public class PersonDTO {
 		setCompleteName(completeName);
 		
 	}
-
-	private void setCompleteName() {
-		// TODO Auto-generated method stub
-		
+	
+	/*controlamos los nulos en los getters*/
+	public final String getId() {
+		if(id == null) {
+			setId("");
+		}
+		return id.trim();
 	}
 
-	private void setLastName() {
-		// TODO Auto-generated method stub
-		
+	public final void setId(final String id) {
+		this.id = id;
 	}
 
-	private void setName() {
-		// TODO Auto-generated method stub
-		
+	public final String getIdCard() {
+		if(idCard == null) {
+			setIdCard("");
+		}
+		return idCard.trim();
 	}
 
-	private void setSecondSurName(String secondSurName2) {
-		// TODO Auto-generated method stub
-		
+	public final void setIdCard(final String idCard) {
+		this.idCard = idCard;
 	}
 
-	private void setFirtstSurname(String firtstSurname2) {
-		// TODO Auto-generated method stub
-		
+	public final String getFirstName() {
+		if(firstName == null) {
+			setFirstName("");
+		}
+		return firstName.trim();
 	}
 
-	private void setCompleteName(String string) {
-		// TODO Auto-generated method stub
-		
+	public final void setFirstName(final String firstName) {
+		this.firstName = firstName;
 	}
 
+	public final String getMiddleName() {
+		if(middleName == null) {
+			setMiddleName("");
+		}
+		return middleName.trim();
+	}
 
+	public final void setMiddleName(final String middleName) {
+		this.middleName = middleName;
+	}
+
+	public final String getFirtstSurname() {
+		if(firtstSurname == null) {
+			setFirtstSurname("");
+		}
+		
+		return firtstSurname.trim();
+	}
+
+	public final void setFirtstSurname(final String firtstSurname) {
+		this.firtstSurname = firtstSurname;
+	}
+
+	public final String getSecondSurName() {
+		if(secondSurName == null) {
+			setSecondSurName("");
+		}
+		return secondSurName.trim();
+	}
+
+	public final void setSecondSurName(final String secondSurName) {
+		this.secondSurName = secondSurName;
+	}
+
+	public final String getName() {
+		if(name == null) {
+			setName("");
+		}
+		return name.trim();
+	}
+
+	public final void setName(final String name) {
+		this.name = name;
+	}
+
+	public final String getLastName() {
+		if(lastName == null) {
+			setLastName("");
+		}
+		return lastName.trim();
+	}
+
+	public final void setLastName(final String lastName) {
+		this.lastName = lastName;
+	}
+
+	public final String getCompleteName() {
+		if(completeName == null) {
+			setCompleteName("");
+		}
+		return completeName.trim();
+	}
+
+	public final void setCompleteName(final String completeName) {
+		this.completeName = completeName;
+	}
+	
+	public static final PersonDTO create() {
+		return new PersonDTO();
+	}
+	
 	
 
-	private void setLastName(String string) {
-		// TODO Auto-generated method stub
-		
-	}
-
-
-	private void setName(String string) {
-		// TODO Auto-generated method stub
-		
-	}
-
-
-	private void setSecondSurName() {
-		// TODO Auto-generated method stub
-		
-	}
-
-
-	private void setFirtstSurname() {
-		// TODO Auto-generated method stub
-		
-	}
-
-
-	private void setMiddleName(String string) {
-		// TODO Auto-generated method stub
-		
-	}
-
-
-	private void setFirstName(String string) {
-		// TODO Auto-generated method stub
-		
-	}
-
-
-	private void setIdCard(String string) {
-		// TODO Auto-generated method stub
-		
-	}
-
-
-	private void setId(String string) {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
 }

@@ -1,17 +1,23 @@
 package com.mybudget.personalbudget.domain.builder;
 
+import java.util.UUID;
+
+
+import static com.mybudget.personalbudget.crosscutting.UtilUUID.DEFAULT_UUID;
+import static com.mybudget.personalbudget.crosscutting.UtilUUID.getDefauultUUID;
 import com.mybudget.personalbudget.domain.YearDomain;
 
 public class YearDomainBuilder {
-	private String id;
+	private UUID id;
 	private int year;
 
 	/* Aqui se va a tener un mecanismo para poderlo construir */
-
+	//constructor
 	private YearDomainBuilder() {
-		setId("");
+		setId(DEFAULT_UUID);
 		setYear(0);
 	}
+	
 	
 	
 	/*Tengo como obtener una instancia del YearDomainBuilder
@@ -26,10 +32,11 @@ public class YearDomainBuilder {
 
 	
 
-	/* se crean los getter privados y los setter publicos */
-	public final YearDomainBuilder setId(String id) {
-		/*si es vacio dejelo asi y sino quitele los espacios.*/
-		this.id = (id == null) ? "": id.trim();
+	/* se crean los set privados y los get publicos */
+	
+	public final YearDomainBuilder setId(UUID id) {
+
+		this.id = getDefauultUUID (id);
 		/*Retorno el objeto*/
 		return this;
 	}
@@ -44,30 +51,21 @@ public class YearDomainBuilder {
 	
 	
 
-	private final String getId() {
+	/*+private final UUID getId() {
 		return id;
 	}
 
 	private final int getYear() {
 		return year;
-	}
+	} los quitamos por que realente no os necesitamos*/
 	
 	
 	public YearDomain build() {/*Obtenemos el id y el year actual
 	osea que con este metodo estamos returnando un objeto de tipo YearDomain*/
-		return YearDomain.create(getId(), getYear());
+		return YearDomain.create(id, year);
 	}
-	
-	
-	/* Ensayos*/
-	public static void main(String[] args) {
-		
-		YearDomain myYear = YearDomainBuilder.get().setYear(2020).build();
-		YearDomain myYearTow = YearDomainBuilder.get().setId("123").setYear(2020).build();
-		YearDomain myYearThree = YearDomainBuilder.get().setId("123").build();
-		YearDomain myYearFour = YearDomainBuilder.get().build();
-		YearDomain myYearFive = YearDomainBuilder.get().setYear(2020).setId("123").build();
-	}
+	 
+	/*El Builder construye el Domain*/
 	
 
 }

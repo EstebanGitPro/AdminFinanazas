@@ -5,11 +5,15 @@ public  class YearDTO {
 	private String id;
 	private int year;
 	
-	private YearDTO() {
+	//se crean dos contructores
+	
+	//constructor sin paramentros 
+	public YearDTO() {
 		setId("");
 		setYear(0);
 	}
-
+	
+	//constructor Parametrizado
 	public YearDTO(String id, int year) {
 		setId(id);
 		setYear(year);
@@ -20,6 +24,9 @@ public  class YearDTO {
 		return new YearDTO();
 	}
 	
+	/*los getter y setter si pueden ser publicos por que aqui lo unico que
+	 * vamos a garantizar quee desde el punto de vista de objetos 
+	 * se pueda llenar  la bolsa rapidamente para enviarla para otra parte*/
 	
 	
 
@@ -39,11 +46,11 @@ public  class YearDTO {
 		return year;
 	}
 
-	private final void setId(String id) {
+	public final void setId(final String id) {
 		this.id = id;
 	}
 
-	private final void setYear(int year) {
+	public final void setYear(final int year) {
 		this.year = year;
 	}
 
