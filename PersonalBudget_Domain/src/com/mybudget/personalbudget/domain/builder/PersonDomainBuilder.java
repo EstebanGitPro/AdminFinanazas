@@ -34,7 +34,6 @@ public class PersonDomainBuilder {
 	
 	}
 	
-	/* se crean los set privados y los get publicos */
 	
 	//Setters
 	public final PersonDomainBuilder setId(final UUID id) {
@@ -43,31 +42,31 @@ public class PersonDomainBuilder {
 	}
 
 
-	private final PersonDomainBuilder setIdCard(String idCard) {
+	public final PersonDomainBuilder setIdCard(String idCard) {
 		this.idCard = (idCard == null) ? "":idCard.trim();
 		return this;
 	}
 
 
-	private final PersonDomainBuilder setFirstName(String firstName) {
+	public final PersonDomainBuilder setFirstName(String firstName) {
 		this.firstName = (firstName == null) ? "":firstName.trim();
 		return this;
 	}
 
 
-	private final PersonDomainBuilder setMiddlename(String middlename) {
+	public final PersonDomainBuilder setMiddlename(String middlename) {
 		this.middlename = (middlename == null)? "":middlename.trim();
 		return this;
 	}
 
 
-	private final PersonDomainBuilder setFirstSurname(String firstSurname) {
+	public final PersonDomainBuilder setFirstSurname(String firstSurname) {
 		this.firstSurname = (firstSurname == null)? "": firstSurname.trim();
 		return this;
 	}
 
 
-	private final PersonDomainBuilder setSecondSurname(String secondSurname) {
+	public final PersonDomainBuilder setSecondSurname(String secondSurname) {
 		this.secondSurname = (secondSurname == null) ? "": secondSurname.trim();
 		return this;
 	}

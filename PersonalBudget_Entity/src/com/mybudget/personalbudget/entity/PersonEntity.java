@@ -2,16 +2,29 @@ package com.mybudget.personalbudget.entity;
 
 import java.util.UUID;
 
-import static com.mybudget.personalbudget.crosscutting.UtilUUID.DEFAULT_UUID;
-//import static com.mybudget.personalbudget.crosscutting.UtilUUID.getDefauultUUID;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
+import static com.mybudget.personalbudget.crosscutting.UtilUUID.DEFAULT_UUID;
+
+
+@Entity
+@Table(name = "Person")
 public class PersonEntity {
-	
+	@Id
+	@Column(name = "id")
 	private UUID id;
+	@Column(name = "idCard")
 	private String idCard;
+	@Column(name = "firstName")
 	private String firstName;
+	@Column(name = "middleName")
 	private String middleName;
+	@Column(name = "firstSurname")
 	private String firtstSurname;
+	@Column(name = "secondSurName")
 	private String secondSurName;
 	
 	

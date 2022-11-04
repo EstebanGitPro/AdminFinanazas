@@ -2,13 +2,24 @@ package com.mybudget.personalbudget.entity;
 
 import java.util.UUID;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 import static com.mybudget.personalbudget.crosscutting.UtilUUID.DEFAULT_UUID;
-//import static com.mybudget.personalbudget.crosscutting.UtilUUID.getDefauultUUID;
 
+
+@Entity
+@Table(name = "Year")
 public  class YearEntity {
-
+	
+	@Id
+	@Column(name = "id")
 	private UUID id;
+	
+	@Column(name = "year")
 	private int year;
 	
 	//se crean dos contructores
@@ -40,14 +51,14 @@ public  class YearEntity {
 	 * se pueda llenar  la bolsa rapidamente para enviarla para otra parte*/
 	
 	
-	public final UUID getId() {
+	public UUID getId() {
 		if(id == null) {
 			setId(DEFAULT_UUID);
 		}
 		return id;
 	}
 
-	public final int getYear() {
+	public  int getYear() {
 		if(year < 0) {
 			setYear(0);
 		}
