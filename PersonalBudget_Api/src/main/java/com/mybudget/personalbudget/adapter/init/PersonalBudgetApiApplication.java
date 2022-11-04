@@ -18,28 +18,16 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableJpaRepositories(basePackages = { "com.mybudget.personalbudget" })
 @EntityScan(basePackages = { "com.mybudget.personalbudget" })
 @EnableConfigurationProperties(Credential.class)
-public class PersonalBudgetApiApplication implements CommandLineRunner {
+public class PersonalBudgetApiApplication{
 	
-	private final Credential credential;
 	
-	public PersonalBudgetApiApplication(Credential credential) {
-	    this.credential = credential;
-	  }
 
 	public static void main(String[] args) {
 		SpringApplication.run(PersonalBudgetApiApplication.class, args);
 	}
 
-	@Override
-	public void run(String... args) throws Exception {
-		Logger logger = LoggerFactory.getLogger(PersonalBudgetApiApplication.class);
-		
-		logger.info("----------------------------------------");
-	    logger.info("Configuration properties");
-	    logger.info("   Budget.password  is {}", credential.getUsername());
-	    logger.info("   Budget.username  is {}", credential.getPassword());
-	    logger.info("----------------------------------------");
-		
-	}
+	
+
+
 
 }

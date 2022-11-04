@@ -1,5 +1,6 @@
 package com.mybudget.personalbudget.adapter.init;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
@@ -9,23 +10,13 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties("budget")
 public class Credential {
 	
+	
+	
+	@Value("${spring.datasource.username}")
 	private String username;
+	@Value("${spring.datasource.password}")
 	private String password;
+	@Value("${spring.datasource.url}")
+	private String url;
 	
-	public final String getUsername() {
-		return username;
-	}
-	public final void setUsername(String username) {
-		this.username = username;
-	}
-	public final String getPassword() {
-		return password;
-	}
-	public final void setPassword(String password) {
-		this.password = password;
-	}
-	
-	
-	
-
 }
