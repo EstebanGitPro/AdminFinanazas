@@ -1,5 +1,7 @@
 package com.mybudget.personalbudget.entity;
 
+import static com.mybudget.personalbudget.crosscutting.UtilUUID.DEFAULT_UUID;
+
 import java.util.UUID;
 
 import javax.persistence.Column;
@@ -8,12 +10,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import static com.mybudget.personalbudget.crosscutting.UtilUUID.DEFAULT_UUID;
-
 
 @Entity
 @Table(name = "Year")
-public  class YearEntity {
+public final class YearEntity {
 	
 	@Id
 	@Column(name = "id")
@@ -23,7 +23,6 @@ public  class YearEntity {
 	private int year;
 	
 	//se crean dos contructores
-	
 	//constructor sin paramentros 
 	public YearEntity() {
 		setId(DEFAULT_UUID);

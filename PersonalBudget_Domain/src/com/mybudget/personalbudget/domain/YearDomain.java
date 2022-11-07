@@ -1,9 +1,9 @@
 package com.mybudget.personalbudget.domain;
 
-import java.util.UUID;
-
+import static com.mybudget.personalbudget.crosscutting.UtilUUID.DEFAULT_UUID;
 import static com.mybudget.personalbudget.crosscutting.UtilUUID.getDefauultUUID;
-import static com.mybudget.personalbudget.crosscutting.UtilUUID.DEFAULT_UUID;;
+
+import java.util.UUID;;
 
 
 public class YearDomain {

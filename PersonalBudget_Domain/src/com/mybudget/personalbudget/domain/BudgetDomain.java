@@ -1,10 +1,10 @@
 package com.mybudget.personalbudget.domain;
 
 
+import static com.mybudget.personalbudget.crosscutting.UtilUUID.getDefauultUUID;
+
 import java.util.UUID;
 
-
-import static com.mybudget.personalbudget.crosscutting.UtilUUID.getDefauultUUID;
 import com.mybudget.personalbudget.domain.builder.PersonDomainBuilder;
 import com.mybudget.personalbudget.domain.builder.YearDomainBuilder;
 

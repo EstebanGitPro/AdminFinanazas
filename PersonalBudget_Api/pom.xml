@@ -12,16 +12,45 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>PersonalBudget_Api</name>
 	<description>Componebte que permite exponer los diferentes mecanismos de acceso a la plicacion Personal Budget.</description>
-
+	<developers>
+		<developer>
+			<id>auth0</id>
+			<name>Auth0</name>
+			<email>oss@auth0.com</email>
+		</developer>
+		<developer>
+			<id>Ste</id>
+			<name>Esteban Agudelo</name>
+			<email>estebanpoly.e.a@gmail.com</email>
+		</developer>
+		<developer>
+			<id>Cast</id>
+			<name>Andres Castillo</name>
+			<email>aj.faru@gmail.com</email>
+		</developer>
+	</developers>
 	<properties>
+		<sonar.organization>estebangitpro</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
+		<spring-security.version>5.3.4.RELEASE</spring-security.version>
+		<spring.version>5.2.8.RELEASE</spring.version>
 		<java.version>19</java.version>
 		<spring-cloud.version>2021.0.4</spring-cloud.version>
+
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+			<version>2.7.5</version>
+		</dependency>
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -54,9 +83,72 @@
 			<artifactId>spring-boot-configuration-processor</artifactId>
 			<optional>true</optional>
 		</dependency>
+
+		<dependency>
+			<groupId>com.auth0</groupId>
+			<artifactId>mvc-auth-commons</artifactId>
+			<version>1.2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.auth0</groupId>
+			<artifactId>auth0</artifactId>
+			<version>1.44.1</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.auth0</groupId>
+			<artifactId>java-jwt</artifactId>
+			<version>3.19.3</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.auth0</groupId>
+			<artifactId>jwks-rsa</artifactId>
+			<version>0.21.2</version>
+			<scope>compile</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>4.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.12.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava-annotations</artifactId>
+			<version>r03</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.15</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.auth0</groupId>
+			<artifactId>mvc-auth-commons</artifactId>
+			<version>1.2.0</version>
+		</dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
+			<dependency>
+				<groupId>org.springframework.security</groupId>
+				<artifactId>spring-security-core</artifactId>
+				<version>${spring-security.version}</version>
+			</dependency>
+
+
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
@@ -64,9 +156,34 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+			<dependency>
+				<groupId>org.springframework.security</groupId>
+				<artifactId>spring-security-web</artifactId>
+				<version>${spring-security.version}</version>
+			</dependency>
+
+
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-api</artifactId>
+				<version>1.7.36</version>
+				<scope>runtime</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-beans</artifactId>
+				<version>5.3.18</version>
+			</dependency>
+			<dependency>
+				<groupId>io.jsonwebtoken</groupId>
+				<artifactId>jjwt</artifactId>
+				<version>0.7.0</version>
+			</dependency>
+
+
 		</dependencies>
 	</dependencyManagement>
-
 
 	<build>
 		<plugins>
@@ -76,5 +193,17 @@
 			</plugin>
 		</plugins>
 	</build>
+	<licenses>
+		<license>
+			<name>The MIT License (MIT)</name>
+			<url>https://raw.githubusercontent.com/auth0/auth0-spring-security-api/master/LICENSE</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<scm>
+		<connection>scm:git@github.com:auth0/auth0-spring-security-api.git</connection>
+		<developerConnection>scm:git@github.com:auth0/auth0-spring-security-api.git</developerConnection>
+		<url>https://github.com/auth0/auth0-spring-security-api</url>
+	</scm>
 
 </project>

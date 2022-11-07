@@ -1,5 +1,7 @@
 package com.mybudget.personalbudget.entity;
 
+import static com.mybudget.personalbudget.crosscutting.UtilUUID.DEFAULT_UUID;
+
 import java.util.UUID;
 
 import javax.persistence.Column;
@@ -7,13 +9,11 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import javax.persistence.Table;
-
-import static com.mybudget.personalbudget.crosscutting.UtilUUID.DEFAULT_UUID;;
+import javax.persistence.Table;;
 
 @Entity
 @Table(name = "Budget")
-public class BudgetEntity {
+public final class BudgetEntity {
 	
 	/*UUID es por que se esta mapeando la entidad en bases de datos
 	 * La manera más sencilla de generar un UUID (Universally Unique Identifier) es mediante la clase

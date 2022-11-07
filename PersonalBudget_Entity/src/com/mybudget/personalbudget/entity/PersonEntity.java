@@ -1,5 +1,7 @@
 package com.mybudget.personalbudget.entity;
 
+import static com.mybudget.personalbudget.crosscutting.UtilUUID.DEFAULT_UUID;
+
 import java.util.UUID;
 
 import javax.persistence.Column;
@@ -7,12 +9,10 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import static com.mybudget.personalbudget.crosscutting.UtilUUID.DEFAULT_UUID;
-
 
 @Entity
 @Table(name = "Person")
-public class PersonEntity {
+public final class PersonEntity {
 	@Id
 	@Column(name = "id")
 	private UUID id;
