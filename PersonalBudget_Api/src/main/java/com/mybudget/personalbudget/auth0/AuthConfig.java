@@ -1,7 +1,7 @@
 package com.mybudget.personalbudget.auth0;
 
 import java.io.UnsupportedEncodingException;
-
+import java.io.IOException;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -9,15 +9,18 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;
-
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import com.auth0.AuthenticationController;
 import com.auth0.jwk.JwkProvider;
 import com.auth0.jwk.JwkProviderBuilder;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.web.authentication.AbstractAuthenticationTargetUrlRequestHandler;
 
-//@Configuration
-//@EnableWebSecurity
-public class A /*extends WebSecurityConfigurerAdapter*/ {
-	/*
+@Configuration
+@EnableWebSecurity
+public class AuthConfig extends WebSecurityConfigurerAdapter {
+	
     @Value(value = "${com.auth0.domain}")
     private String domain;
 
@@ -39,6 +42,8 @@ public class A /*extends WebSecurityConfigurerAdapter*/ {
           .loginPage("/login")
           .and()
           .logout().logoutSuccessHandler(LogoutSuccessHandler()).permitAll();
+          
+          //logoutSuccessHandler(logoutSuccessHandler()).permitAll();
     }
     
   
@@ -51,5 +56,5 @@ public class A /*extends WebSecurityConfigurerAdapter*/ {
           .withJwkProvider(jwkProvider)
           .build();
     }
-    */
+    
 }

@@ -11,13 +11,15 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
+
 import com.auth0.AuthenticationController;
 import com.auth0.Tokens;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.interfaces.DecodedJWT;
 
-public class B {
-	/*
+@Controller
+public class AuthController  {
+	
     @Autowired
     private AuthConfig config;
 
@@ -48,5 +50,5 @@ public class B {
         SecurityContextHolder.getContext().setAuthentication(authToken2);
         response.sendRedirect(config.getContextPath(request) + "/"); 
     }
-    */
+    
 }
