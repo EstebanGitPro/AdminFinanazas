@@ -14,6 +14,9 @@
 	<description>Componebte que permite exponer los diferentes mecanismos de acceso a la plicacion Personal Budget.</description>
 
 	<properties>
+
+		<sonar.organization>estebangitpro</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 		<java.version>19</java.version>
 		<spring-cloud.version>Hoxton.RELESE</spring-cloud.version>
 		<spring-cloud.version>2021.0.4</spring-cloud.version>
