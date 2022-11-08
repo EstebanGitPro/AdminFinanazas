@@ -16,8 +16,8 @@ import com.auth0.Tokens;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.interfaces.DecodedJWT;
 
-@Controller
-public class AuthController {
+public class B {
+	/*
     @Autowired
     private AuthConfig config;
 
@@ -48,4 +48,5 @@ public class AuthController {
         SecurityContextHolder.getContext().setAuthentication(authToken2);
         response.sendRedirect(config.getContextPath(request) + "/"); 
     }
+    */
 }

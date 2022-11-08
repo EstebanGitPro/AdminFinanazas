@@ -8,6 +8,8 @@ import org.springframework.stereotype.Service;
 
 import com.mybudget.personalbudget.application.entityassembler.EntityAssembler;
 import com.mybudget.personalbudget.application.service.interfaces.CreateBudgetUseCase;
+import com.mybudget.personalbudget.crosscutting.exeption.NgException;
+import com.mybudget.personalbudget.crosscutting.exeption.TipoExcepcionEnum;
 import com.mybudget.personalbudget.domain.BudgetDomain;
 import com.mybudget.personalbudget.entity.BudgetEntity;
 import com.mybudget.personalbudget.infrastructure.data.interfaces.BudgetRepository;
@@ -24,7 +26,8 @@ public  class CreateBudgetUseCaseImpl implements CreateBudgetUseCase{
 	
 	@Override
 	public void execute(final BudgetDomain budget) {
-		budgetRepository.save(entityAssembler.assemblerEntity(budget));
+		NgException.crear(TipoExcepcionEnum.NEGOCIO, "hola", "hola");
+		//budgetRepository.save(entityAssembler.assemblerEntity(budget));
 	}
 
 }

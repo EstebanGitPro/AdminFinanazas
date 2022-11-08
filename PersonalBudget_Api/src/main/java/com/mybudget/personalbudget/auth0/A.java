@@ -14,9 +14,10 @@ import com.auth0.AuthenticationController;
 import com.auth0.jwk.JwkProvider;
 import com.auth0.jwk.JwkProviderBuilder;
 
-@Configuration
-@EnableWebSecurity
-public class AuthConfig extends WebSecurityConfigurerAdapter {
+//@Configuration
+//@EnableWebSecurity
+public class A /*extends WebSecurityConfigurerAdapter*/ {
+	/*
     @Value(value = "${com.auth0.domain}")
     private String domain;
 
@@ -50,4 +51,5 @@ public class AuthConfig extends WebSecurityConfigurerAdapter {
           .withJwkProvider(jwkProvider)
           .build();
     }
+    */
 }

@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.interfaces.DecodedJWT;
 
-@Controller
-public class HomeController {
+public class c {
+	/*
     @GetMapping(value = "/")
     @ResponseBody
     public String home(final Authentication authentication) {
@@ -19,4 +19,5 @@ public class HomeController {
         String email = jwt.getClaims().get("email").asString();
         return "Welcome, " + email + "!";
     }
+    */
 }

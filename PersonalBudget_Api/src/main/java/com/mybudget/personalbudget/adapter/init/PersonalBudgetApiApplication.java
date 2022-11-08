@@ -3,6 +3,8 @@ package com.mybudget.personalbudget.adapter.init;
 
 
 import org.springframework.boot.SpringApplication;
+import com.mybudget.personalbudget.crosscutting.exeption.*;
+
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -17,7 +19,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @ComponentScan(basePackages = { "com.mybudget.personalbudget" })
 @EnableJpaRepositories(basePackages = { "com.mybudget.personalbudget" })
 @EntityScan(basePackages = { "com.mybudget.personalbudget" })
-@EnableConfigurationProperties(Credential.class)
+//@EnableConfigurationProperties(Credential.class)
 public class PersonalBudgetApiApplication{
 	
 	
