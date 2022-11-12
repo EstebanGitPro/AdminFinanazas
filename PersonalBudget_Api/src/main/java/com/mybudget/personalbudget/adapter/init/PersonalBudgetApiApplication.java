@@ -4,6 +4,8 @@ package com.mybudget.personalbudget.adapter.init;
 
 import org.springframework.boot.SpringApplication;
 import com.mybudget.personalbudget.crosscutting.exeption.*;
+import com.mybudget.personalbudget.crosscutting.notifications.CorreoElectronico;
+import com.mybudget.personalbudget.crosscutting.notifications.notify.Notifier;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
@@ -26,6 +28,11 @@ public class PersonalBudgetApiApplication{
 
 	public static void main(String[] args) {
 		SpringApplication.run(PersonalBudgetApiApplication.class, args);
+		String para ="estebanpoly.e.a@gmail.com";
+		String asunto ="prueba notificacion ";
+		String contenido= "ha funcionado sin problemas";
+		
+		Notifier.enviar(CorreoElectronico.crearFormatoHTML(para, asunto, contenido));
 	}
 	
 
