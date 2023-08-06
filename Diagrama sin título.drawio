@@ -1,9 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2023-08-06T15:44:14.259Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" version="21.6.6" etag="sPTwkrYxbnmxPzvOs2zd" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-06T22:43:50.026Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="EeXxinIugBnbz7OylUE-" version="21.6.6" type="github">
   <diagram name="Página-1" id="xt2e4blbkaSF2w6qA2vS">
-    <mxGraphModel>
+    <mxGraphModel dx="1520" dy="934" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sy5EoKX25wOx0nBIT3mE-2" value="Fase 1: modelado conceptual" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-343" y="-120" width="225" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="sy5EoKX25wOx0nBIT3mE-3" value="Tasa de llegada de los clientes" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="94" y="-46" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sy5EoKX25wOx0nBIT3mE-4" value="Tasa de atención de los servidores" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-226" y="-51" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sy5EoKX25wOx0nBIT3mE-5" value="Tasa de salida de los clientes" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="258" y="-46" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sy5EoKX25wOx0nBIT3mE-6" value="Capacidad de la cola" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-34" y="425" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sy5EoKX25wOx0nBIT3mE-16" value="Llegada de los clientes" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="236" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sy5EoKX25wOx0nBIT3mE-17" value="Salida de los clientes" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="492" y="236" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sy5EoKX25wOx0nBIT3mE-18" value="Capacidad maxima de la cola" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-66" y="-46" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sy5EoKX25wOx0nBIT3mE-19" value="Servidor" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="94" y="240.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sy5EoKX25wOx0nBIT3mE-22" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-220" y="268.5" as="sourcePoint" />
+            <mxPoint x="-141" y="269" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sy5EoKX25wOx0nBIT3mE-23" value="Número de servidores" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="293" y="240.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sy5EoKX25wOx0nBIT3mE-24" value="Tiempo de llegada entre cada uno de los usuarios&amp;nbsp;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-349" y="435" width="212" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sy5EoKX25wOx0nBIT3mE-26" value="Tiempo del servicio" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="218" y="425" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sy5EoKX25wOx0nBIT3mE-27" value="Tiempo de espera" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-141" y="242" width="154" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="sy5EoKX25wOx0nBIT3mE-28" value="Nivel de satisfacción del cliente" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="378" y="435" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sy5EoKX25wOx0nBIT3mE-31" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="13" y="270" as="sourcePoint" />
+            <mxPoint x="92" y="270.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sy5EoKX25wOx0nBIT3mE-33" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="214" y="273" as="sourcePoint" />
+            <mxPoint x="293" y="273.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sy5EoKX25wOx0nBIT3mE-34" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="413" y="270" as="sourcePoint" />
+            <mxPoint x="492" y="270.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
