@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T23:29:44.905Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="piFji7KHIzarQdY7g2Gq" version="21.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-15T23:34:17.116Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="exyAJPqKlGU4mXfYehsY" version="21.6.6" type="github" pages="2">
   <diagram name="Página-1" id="tESKYNNmowuRRf9zNqwW">
     <mxGraphModel dx="1851" dy="641" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="dHgoY7iqLfbEEOLfW-AG-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-109" y="75" width="703" height="268" as="geometry" />
         </mxCell>
-        <mxCell id="dHgoY7iqLfbEEOLfW-AG-2" value="ENTRADA PRODUCTOS FRESCOS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="dHgoY7iqLfbEEOLfW-AG-2" value="ENTRADA PRODUCTOS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-239" y="191" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dHgoY7iqLfbEEOLfW-AG-3" value="REGISTRO" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
@@ -29,10 +29,19 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VFmA77z9ysZdsGZfys1j" name="Página-2">
-    <mxGraphModel dx="1016" dy="449" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1416" dy="849" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="E-PGWQbMxZulWgDMQFT2-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-198" y="-42" width="730" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="E-PGWQbMxZulWgDMQFT2-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-156" y="268" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E-PGWQbMxZulWgDMQFT2-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="378" y="268" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
