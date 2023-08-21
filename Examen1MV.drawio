@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-21T15:34:04.252Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="TXzxpDBUOLVe8bn8CYqz" version="21.6.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-21T16:11:17.499Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="wBlvXxkipNz2k866QoaG" version="21.6.8" type="github" pages="2">
   <diagram name="Página-1" id="CaUdvscbt86u4UcoUKp_">
     <mxGraphModel dx="1435" dy="628" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BevmQSDTrRuxI-6da2g0" name="Página-2">
-    <mxGraphModel dx="1800" dy="1068" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1754" dy="1222" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -132,20 +132,100 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xZvjJREezwIT_3adH_xX-7" value="TP-E-MBD" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="95" y="524" width="120" height="60" as="geometry" />
+        <mxCell id="H2zouCaRgMSv7rfdDMyt-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="xZvjJREezwIT_3adH_xX-7" target="H2zouCaRgMSv7rfdDMyt-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xZvjJREezwIT_3adH_xX-8" value="T-SSADBD-MBD" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="xZvjJREezwIT_3adH_xX-7" value="TP-E-MBD" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="115" y="633" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2zouCaRgMSv7rfdDMyt-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="xZvjJREezwIT_3adH_xX-8" target="H2zouCaRgMSv7rfdDMyt-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZvjJREezwIT_3adH_xX-8" value="T-SSABD-MBD" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="495" y="209" width="134" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iMElZ-LJTE1LGnopRSnj-1" value="Sistema&amp;nbsp; de Administración de Bases de Datos" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-23" y="-153" width="364.5" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="H2zouCaRgMSv7rfdDMyt-1" value="TESABD-MBD" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-296" y="215" width="120" height="60" as="geometry" />
+        <mxCell id="H2zouCaRgMSv7rfdDMyt-4" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-236" y="215" as="sourcePoint" />
+            <mxPoint x="115" y="-66" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-172" y="-58" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="H2zouCaRgMSv7rfdDMyt-2" value="FEABD-MBD" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="95" y="-61" width="120" height="60" as="geometry" />
+        <mxCell id="H2zouCaRgMSv7rfdDMyt-5" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="xZvjJREezwIT_3adH_xX-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="235" y="-66" as="sourcePoint" />
+            <mxPoint x="340" y="28" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="517" y="-46" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H2zouCaRgMSv7rfdDMyt-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.61;exitY=1.061;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xZvjJREezwIT_3adH_xX-8" target="xZvjJREezwIT_3adH_xX-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="208" y="449" as="sourcePoint" />
+            <mxPoint x="258" y="399" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="571" y="584" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H2zouCaRgMSv7rfdDMyt-8" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xZvjJREezwIT_3adH_xX-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-165" y="450" as="sourcePoint" />
+            <mxPoint x="-238.65415549597856" y="275" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-269" y="618" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H2zouCaRgMSv7rfdDMyt-9" value="FEABD-MBD" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-283" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2zouCaRgMSv7rfdDMyt-10" value="TESABD-MBD" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="113" y="-95" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2zouCaRgMSv7rfdDMyt-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="H2zouCaRgMSv7rfdDMyt-21" target="xZvjJREezwIT_3adH_xX-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="761" y="677" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H2zouCaRgMSv7rfdDMyt-24" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="H2zouCaRgMSv7rfdDMyt-14" target="H2zouCaRgMSv7rfdDMyt-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H2zouCaRgMSv7rfdDMyt-14" value="TASA DE FIABILIDAD" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="700" y="209" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2zouCaRgMSv7rfdDMyt-20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="H2zouCaRgMSv7rfdDMyt-18" target="CTiyixeumiHYSVtTRiUa-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H2zouCaRgMSv7rfdDMyt-18" value="PARAR" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="113" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2zouCaRgMSv7rfdDMyt-22" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="H2zouCaRgMSv7rfdDMyt-14" target="H2zouCaRgMSv7rfdDMyt-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="749" y="269" as="sourcePoint" />
+            <mxPoint x="175" y="693" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H2zouCaRgMSv7rfdDMyt-21" value="Baja" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="700" y="412" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2zouCaRgMSv7rfdDMyt-26" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="H2zouCaRgMSv7rfdDMyt-23" target="H2zouCaRgMSv7rfdDMyt-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H2zouCaRgMSv7rfdDMyt-23" value="Alta" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="695" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2zouCaRgMSv7rfdDMyt-25" value="Tasa de salida del Sistema Administrador de Bases de Datos exitosa.&lt;br&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="588" y="-153" width="329" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
