@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T23:18:48.556Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="tSbaBlwLrb47RiaW0cfV" version="21.7.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-05T23:20:10.042Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="wphUF0paZgEiDfpLMViV" version="21.7.2" type="github" pages="2">
   <diagram name="Página-1" id="r3wywVz4yK5JfZALr3Rn">
     <mxGraphModel dx="2544" dy="1426" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,6 +78,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="JMTsrlxDNgS4ko7KC8qy-34" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="JMTsrlxDNgS4ko7KC8qy-3" target="JMTsrlxDNgS4ko7KC8qy-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JMTsrlxDNgS4ko7KC8qy-3" value="CRITERIOS REPARACION&amp;nbsp; EC" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="352" y="309" width="152" height="56" as="geometry" />
         </mxCell>
@@ -122,7 +125,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JMTsrlxDNgS4ko7KC8qy-16" value="AUMENTO EN LAS TASA DE REPARACION ESPERADAS" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="536" y="307" width="180" height="78" as="geometry" />
+          <mxGeometry x="538" y="296.5" width="180" height="78" as="geometry" />
         </mxCell>
         <mxCell id="JMTsrlxDNgS4ko7KC8qy-25" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="JMTsrlxDNgS4ko7KC8qy-18" target="JMTsrlxDNgS4ko7KC8qy-24">
           <mxGeometry relative="1" as="geometry" />
@@ -150,8 +153,14 @@
         <mxCell id="JMTsrlxDNgS4ko7KC8qy-26" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="JMTsrlxDNgS4ko7KC8qy-24" target="JMTsrlxDNgS4ko7KC8qy-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="JMTsrlxDNgS4ko7KC8qy-32" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="JMTsrlxDNgS4ko7KC8qy-24" target="JMTsrlxDNgS4ko7KC8qy-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JMTsrlxDNgS4ko7KC8qy-24" value="REDUCIR TASA ISREC MIENTRAS&amp;nbsp; SE MINIMIZA LA TASA DE EQUIPOS NO REPARADOS" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-486" y="281.38" width="161" height="151.25" as="geometry" />
+        </mxCell>
+        <mxCell id="JMTsrlxDNgS4ko7KC8qy-33" value="NO" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="465" width="152" height="56" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
