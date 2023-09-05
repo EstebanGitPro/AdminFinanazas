@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T18:17:03.270Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="KionybtVjVAMeHhvBT3d" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-05T22:29:08.261Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="lF41QBmm67ACvB8Y4VNY" version="21.7.2" type="github" pages="2">
   <diagram name="Página-1" id="r3wywVz4yK5JfZALr3Rn">
-    <mxGraphModel dx="1327" dy="443" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1327" dy="428" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,6 +43,92 @@
         </mxCell>
         <mxCell id="5pueT0lu1OVvBLg2bh8u-4" value="PREC" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="42" y="312" width="103" height="47" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GgcA3LdX6pBFMQrKGOwo" name="Página-2">
+    <mxGraphModel dx="1426" dy="604" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HJfNDQcyVH3PU1oXRZtx-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-321" y="13" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJfNDQcyVH3PU1oXRZtx-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-311" y="23" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJfNDQcyVH3PU1oXRZtx-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-301" y="33" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJfNDQcyVH3PU1oXRZtx-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-291" y="43" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJfNDQcyVH3PU1oXRZtx-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-281" y="53" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJfNDQcyVH3PU1oXRZtx-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-271" y="63" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJfNDQcyVH3PU1oXRZtx-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-261" y="73" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJfNDQcyVH3PU1oXRZtx-9" value="PREC" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="295" y="211" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJfNDQcyVH3PU1oXRZtx-10" value="SECR" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="530" y="209" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJfNDQcyVH3PU1oXRZtx-11" value="Tasa Autorizada&amp;nbsp;ISREC" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="57" y="380" width="155" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="HJfNDQcyVH3PU1oXRZtx-12" value="ISREC" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="66" y="209" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJfNDQcyVH3PU1oXRZtx-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HJfNDQcyVH3PU1oXRZtx-12" target="HJfNDQcyVH3PU1oXRZtx-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="262" y="194" as="sourcePoint" />
+            <mxPoint x="312" y="144" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJfNDQcyVH3PU1oXRZtx-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HJfNDQcyVH3PU1oXRZtx-9" target="HJfNDQcyVH3PU1oXRZtx-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="327" as="sourcePoint" />
+            <mxPoint x="490" y="277" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJfNDQcyVH3PU1oXRZtx-15" value="Tasa Autorizada SECR" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="512.5" y="380" width="155" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="HJfNDQcyVH3PU1oXRZtx-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.458;exitY=0.034;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HJfNDQcyVH3PU1oXRZtx-11" target="HJfNDQcyVH3PU1oXRZtx-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="111" y="377" as="sourcePoint" />
+            <mxPoint x="161" y="327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJfNDQcyVH3PU1oXRZtx-18" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HJfNDQcyVH3PU1oXRZtx-10" target="HJfNDQcyVH3PU1oXRZtx-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="175" y="226" as="sourcePoint" />
+            <mxPoint x="225" y="176" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJfNDQcyVH3PU1oXRZtx-20" value="SECR" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="778" y="209" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJfNDQcyVH3PU1oXRZtx-22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HJfNDQcyVH3PU1oXRZtx-10" target="HJfNDQcyVH3PU1oXRZtx-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="669" y="331" as="sourcePoint" />
+            <mxPoint x="719" y="281" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJfNDQcyVH3PU1oXRZtx-24" value="Tasa Autorizada SECR" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="760.5" y="380" width="155" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="HJfNDQcyVH3PU1oXRZtx-25" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HJfNDQcyVH3PU1oXRZtx-20" target="HJfNDQcyVH3PU1oXRZtx-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="937" y="235" as="sourcePoint" />
+            <mxPoint x="987" y="185" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
