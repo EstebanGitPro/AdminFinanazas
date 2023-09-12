@@ -1,14 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T22:58:50.654Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.76" etag="D7VtiJ6dNua1Hss7xVtJ" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-12T23:12:28.759Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.76" etag="efEamLSM5qFeLvq6AAzR" version="21.7.4" type="github" pages="2">
   <diagram name="Página-1" id="PNvGcGUR_nf7GdDFnCm1">
-    <mxGraphModel dx="1646" dy="733" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1272" dy="513" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="N8PeSpn0VdfWdIR8HGTS-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-101" y="30" width="668" height="521" as="geometry" />
+          <mxGeometry x="-101" y="113" width="617" height="375" as="geometry" />
         </mxCell>
-        <mxCell id="N8PeSpn0VdfWdIR8HGTS-2" value="Ejecución de tareas" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="N8PeSpn0VdfWdIR8HGTS-2" value="Ejecución de tareas" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="151" y="152" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x5JVcvZ3Ywpq4_gx6eSh-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="N8PeSpn0VdfWdIR8HGTS-3" target="x5JVcvZ3Ywpq4_gx6eSh-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N8PeSpn0VdfWdIR8HGTS-3" value="Tareas Finaizadas" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="345" y="152" width="120" height="60" as="geometry" />
@@ -63,6 +66,108 @@
             <mxPoint x="15.5" y="308" as="sourcePoint" />
             <mxPoint x="12.5" y="347" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="x5JVcvZ3Ywpq4_gx6eSh-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="x5JVcvZ3Ywpq4_gx6eSh-1" target="N8PeSpn0VdfWdIR8HGTS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x5JVcvZ3Ywpq4_gx6eSh-1" value="Tasa % de finalización de tareas." style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="343" y="254" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="JBZ5__DzLIHdeABP6-RV" name="Página-2">
+    <mxGraphModel dx="1646" dy="1133" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PAYV313jE26-ioexS1Ha-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-155" y="-251" width="934" height="934" as="geometry" />
+        </mxCell>
+        <mxCell id="PAYV313jE26-ioexS1Ha-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.067;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PAYV313jE26-ioexS1Ha-2" target="PAYV313jE26-ioexS1Ha-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="334" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PAYV313jE26-ioexS1Ha-2" value="Tareas a realizar" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="30" y="229" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PAYV313jE26-ioexS1Ha-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PAYV313jE26-ioexS1Ha-3" target="PAYV313jE26-ioexS1Ha-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="226" y="166" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PAYV313jE26-ioexS1Ha-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.092;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PAYV313jE26-ioexS1Ha-3" target="PAYV313jE26-ioexS1Ha-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="426" y="347" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PAYV313jE26-ioexS1Ha-3" value="Ejecución de tareas" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="267" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PAYV313jE26-ioexS1Ha-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PAYV313jE26-ioexS1Ha-4" target="PAYV313jE26-ioexS1Ha-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PAYV313jE26-ioexS1Ha-4" value="Tareas Finalizadas" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="473" y="229" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBozInxJqbHgMAqEjGuJ-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.431;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PAYV313jE26-ioexS1Ha-5" target="bBozInxJqbHgMAqEjGuJ-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="631" y="-59" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PAYV313jE26-ioexS1Ha-5" value="Tiempo Para cada Tarea" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="252" y="-37" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBozInxJqbHgMAqEjGuJ-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" target="PAYV313jE26-ioexS1Ha-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="199.99999999999977" y="476" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-40" y="496" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bBozInxJqbHgMAqEjGuJ-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PAYV313jE26-ioexS1Ha-8" target="PAYV313jE26-ioexS1Ha-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-30" y="-63" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PAYV313jE26-ioexS1Ha-8" value="Tasa % Programación de tareas" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-109" y="229" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBozInxJqbHgMAqEjGuJ-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="bBozInxJqbHgMAqEjGuJ-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="448" y="471" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="698" y="461" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bBozInxJqbHgMAqEjGuJ-3" value="Tasa % de finalización de tareas." style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="618" y="229" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBozInxJqbHgMAqEjGuJ-9" value="Ejecución&amp;nbsp; de las tareas programadas de forma progresiva" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-176" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bBozInxJqbHgMAqEjGuJ-10" value="Priorización de Tareas" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="198" y="447" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBozInxJqbHgMAqEjGuJ-11" value="Total de tareas programadas" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="323" y="444" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
