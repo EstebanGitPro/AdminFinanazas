@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T23:13:49.542Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.76" etag="zfiAkF-IJo23otB-CpCB" version="21.7.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-12T23:14:42.733Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.76" etag="gzGQ2eY-Vml9xgXL1kKX" version="21.7.4" type="github" pages="2">
   <diagram name="Página-1" id="PNvGcGUR_nf7GdDFnCm1">
     <mxGraphModel dx="1272" dy="513" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,7 +82,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="PAYV313jE26-ioexS1Ha-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-155" y="-251" width="934" height="934" as="geometry" />
+          <mxGeometry x="-155" y="-224" width="907" height="907" as="geometry" />
         </mxCell>
         <mxCell id="PAYV313jE26-ioexS1Ha-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.067;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PAYV313jE26-ioexS1Ha-2" target="PAYV313jE26-ioexS1Ha-3">
           <mxGeometry relative="1" as="geometry">
@@ -161,7 +161,7 @@
           <mxGeometry x="618" y="229" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bBozInxJqbHgMAqEjGuJ-9" value="Ejecución&amp;nbsp; de las tareas programadas de forma progresiva" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="150" y="-176" width="340" height="30" as="geometry" />
+          <mxGeometry x="142" y="-87" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bBozInxJqbHgMAqEjGuJ-10" value="Priorización de Tareas" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="198" y="447" width="120" height="60" as="geometry" />
