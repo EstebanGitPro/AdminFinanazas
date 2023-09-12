@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T22:36:25.973Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.76" version="21.7.4" etag="EhMyBBFgHPKWmbZ6tDOs" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-12T22:40:14.805Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.76" etag="dm_R03O_y5l-CfcKNsrH" version="21.7.4" type="github">
   <diagram name="Página-1" id="PNvGcGUR_nf7GdDFnCm1">
-    <mxGraphModel>
+    <mxGraphModel dx="1272" dy="513" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="N8PeSpn0VdfWdIR8HGTS-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-101" y="30" width="642" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="N8PeSpn0VdfWdIR8HGTS-2" value="Ejecución de tareas" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="151" y="152" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N8PeSpn0VdfWdIR8HGTS-3" value="Tareas Finaizadas" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="357" y="155" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N8PeSpn0VdfWdIR8HGTS-4" value="Tareas a realizar" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-43" y="152" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N8PeSpn0VdfWdIR8HGTS-5" value="Total de tareas programadas" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-46" y="265" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N8PeSpn0VdfWdIR8HGTS-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="129" y="290" as="sourcePoint" />
+            <mxPoint x="179" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
