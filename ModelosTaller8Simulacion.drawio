@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T23:12:28.759Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.76" etag="efEamLSM5qFeLvq6AAzR" version="21.7.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-12T23:13:49.542Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.76" etag="zfiAkF-IJo23otB-CpCB" version="21.7.4" type="github" pages="2">
   <diagram name="Página-1" id="PNvGcGUR_nf7GdDFnCm1">
     <mxGraphModel dx="1272" dy="513" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -108,7 +108,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PAYV313jE26-ioexS1Ha-3" value="Ejecución de tareas" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="PAYV313jE26-ioexS1Ha-3" value="Ejecución de tareas" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="267" y="225" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PAYV313jE26-ioexS1Ha-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PAYV313jE26-ioexS1Ha-4" target="PAYV313jE26-ioexS1Ha-3">
