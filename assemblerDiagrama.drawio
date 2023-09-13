@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T07:00:45.400Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.76" etag="mU7UKJlt037YFkO8irnu" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-13T04:26:51.773Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.76" etag="1aSOX8nDpOY1bFlvGm_2" version="21.7.4" type="github">
   <diagram name="Página-1" id="_-_VR3udPigu9Aa57aB3">
-    <mxGraphModel dx="2580" dy="1683" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1272" dy="913" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,6 +75,15 @@
         </mxCell>
         <mxCell id="sulUD5ponOEcgRSqYsSB-28" value="&lt;h1&gt;Multiplicacion con flotantes&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="517" y="-44" width="286" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sulUD5ponOEcgRSqYsSB-30" value="&lt;h1&gt;Algunos bloques basicos&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-306" y="700" width="402" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="sulUD5ponOEcgRSqYsSB-31" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; la $a0, mensaje3&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;li $v0, 4&lt;/span&gt;&lt;/div&gt;&lt;div&gt;syscall&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-297" y="801" width="324" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="sulUD5ponOEcgRSqYsSB-32" value="#imprimir mensaje para el tiempo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-297" y="770" width="255" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
