@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T18:07:18.997Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="Z8bIFp0XnWbLGHDxx8KQ" version="21.7.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-19T23:00:14.788Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="WcHTIt8b_Exi7LlscEbZ" version="21.7.4" type="github" pages="3">
   <diagram name="Página-1" id="PNvGcGUR_nf7GdDFnCm1">
-    <mxGraphModel dx="1186" dy="483" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1272" dy="531" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -181,6 +181,26 @@
         </mxCell>
         <mxCell id="1sWd0dpWrk1Oh7eU976--1" value="Tipo de tarea" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="124" y="-37" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DgCUGOIYIO4RRZcg6_0i" name="Página-3">
+    <mxGraphModel dx="1272" dy="531" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HXeB0eVNMighuZJXIigZ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-193" y="19" width="861" height="384" as="geometry" />
+        </mxCell>
+        <mxCell id="HXeB0eVNMighuZJXIigZ-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-119" y="74" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HXeB0eVNMighuZJXIigZ-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="110" y="74" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HXeB0eVNMighuZJXIigZ-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="330" y="74" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
