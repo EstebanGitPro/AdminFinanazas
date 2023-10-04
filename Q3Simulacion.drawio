@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-04T01:35:15.785Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="yqHHv4x3c7IlWMNDL06n" version="22.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-04T01:40:03.793Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="0nZOZ8nXapePPrQyQwDW" version="22.0.2" type="github" pages="2">
   <diagram name="Página-1" id="o91XLXOkaBWR3F7ZfSLU">
     <mxGraphModel dx="1612" dy="1095" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -118,6 +118,78 @@
         </mxCell>
         <mxCell id="6Gd0N6yodVV3u2IcNdP2-29" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.455;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="6Gd0N6yodVV3u2IcNdP2-27" target="6Gd0N6yodVV3u2IcNdP2-4">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1MWKb-MfWgcSlmcJ12lv" name="Página-2">
+    <mxGraphModel dx="1612" dy="1095" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CMtdLyX0wL85qlt-lPZr-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-125" y="-45" width="770" height="459" as="geometry" />
+        </mxCell>
+        <mxCell id="CMtdLyX0wL85qlt-lPZr-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="CMtdLyX0wL85qlt-lPZr-1" target="CMtdLyX0wL85qlt-lPZr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMtdLyX0wL85qlt-lPZr-1" value="Tasa de Eliminacion del sw" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="448" y="155" width="139" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="CMtdLyX0wL85qlt-lPZr-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="CMtdLyX0wL85qlt-lPZr-2" target="CMtdLyX0wL85qlt-lPZr-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMtdLyX0wL85qlt-lPZr-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="CMtdLyX0wL85qlt-lPZr-2" target="CMtdLyX0wL85qlt-lPZr-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMtdLyX0wL85qlt-lPZr-2" value="Disponibilidad del cluster" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="309" y="158" width="117" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="CMtdLyX0wL85qlt-lPZr-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="CMtdLyX0wL85qlt-lPZr-3" target="CMtdLyX0wL85qlt-lPZr-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMtdLyX0wL85qlt-lPZr-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="CMtdLyX0wL85qlt-lPZr-3" target="CMtdLyX0wL85qlt-lPZr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMtdLyX0wL85qlt-lPZr-3" value="Uso actual del Cluster" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-14" y="157" width="134" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="CMtdLyX0wL85qlt-lPZr-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="CMtdLyX0wL85qlt-lPZr-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="66.5" y="228.0078125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CMtdLyX0wL85qlt-lPZr-4" value="Tasa de Eliminacion" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-3" y="285" width="139" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="CMtdLyX0wL85qlt-lPZr-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="CMtdLyX0wL85qlt-lPZr-5" target="CMtdLyX0wL85qlt-lPZr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMtdLyX0wL85qlt-lPZr-5" value="Nivel de uso del Cluster" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="152" y="158" width="117" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="CMtdLyX0wL85qlt-lPZr-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="CMtdLyX0wL85qlt-lPZr-6" target="CMtdLyX0wL85qlt-lPZr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMtdLyX0wL85qlt-lPZr-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="CMtdLyX0wL85qlt-lPZr-6" target="CMtdLyX0wL85qlt-lPZr-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="518" y="317" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CMtdLyX0wL85qlt-lPZr-6" value="Tasa de almacenamiento" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="236" y="283" width="139" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="CMtdLyX0wL85qlt-lPZr-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="CMtdLyX0wL85qlt-lPZr-7" target="CMtdLyX0wL85qlt-lPZr-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="368" y="32" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CMtdLyX0wL85qlt-lPZr-7" value="Tasa de almacenamiento de sw" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-16.5" y="-5" width="139" height="73" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
