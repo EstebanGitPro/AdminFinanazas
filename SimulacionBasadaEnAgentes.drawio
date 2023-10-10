@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T22:19:15.268Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="n6acEhc7qGtUYSOfLZql" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-10T22:26:43.311Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="v7rMWhXJ5N41QWaR4k2J" version="22.0.4" type="github">
   <diagram name="Página-1" id="vCq6zs7CrHMmV6JF6-9W">
     <mxGraphModel dx="2474" dy="993" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Tj51BT58kHfH4cU9sa8p-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-358" y="37" width="1328" height="789" as="geometry" />
+          <mxGeometry x="-358" y="37" width="1328" height="671" as="geometry" />
         </mxCell>
         <mxCell id="Tj51BT58kHfH4cU9sa8p-2" value="&lt;h1&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 16px; font-weight: 400; text-align: center;&quot;&gt;Sistema de Eficiencia y Eficacia de una Plataforma de Sistemas Operativos en la nube&lt;br style=&quot;border-color: var(--border-color); font-size: 16px; font-weight: 400; text-align: center;&quot;&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-355" y="10" width="1319" height="120" as="geometry" />
