@@ -1,14 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T19:29:06.880Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="QF8Y1ZCKClAWdqxxQPhi" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-10T22:12:45.823Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="wZ70_daUBSpmAlJK2pFx" version="22.0.4" type="github">
   <diagram name="Página-1" id="vCq6zs7CrHMmV6JF6-9W">
     <mxGraphModel dx="2252" dy="695" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Tj51BT58kHfH4cU9sa8p-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-417" y="3" width="1451" height="441" as="geometry" />
+          <mxGeometry x="-417" y="3" width="1451" height="888" as="geometry" />
         </mxCell>
         <mxCell id="Tj51BT58kHfH4cU9sa8p-2" value="&lt;h1&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 16px; font-weight: 400; text-align: center;&quot;&gt;Sistema de Eficiencia y Eficacia de una Plataforma de Sistemas Operativos en la nube&lt;br style=&quot;border-color: var(--border-color); font-size: 16px; font-weight: 400; text-align: center;&quot;&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-343" y="14" width="1319" height="120" as="geometry" />
+          <mxGeometry x="-355" y="10" width="1319" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Tj51BT58kHfH4cU9sa8p-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="41.5" y="276" width="456" height="522" as="geometry" />
+        </mxCell>
+        <mxCell id="Tj51BT58kHfH4cU9sa8p-4" value="&lt;h1&gt;Maquinas Virtuales&amp;nbsp;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="119.5" y="273" width="378" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="Tj51BT58kHfH4cU9sa8p-5" value="CPU&lt;br&gt;MEMORIA&lt;br&gt;ALMACENAMIENTO&lt;br&gt;ANCHO DE BANDA" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="181.5" y="404" width="176" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="Tj51BT58kHfH4cU9sa8p-6" value="CRECIENTE Y DECRECIENTE" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="187" y="602" width="176" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="Tj51BT58kHfH4cU9sa8p-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.219;exitY=0.056;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Tj51BT58kHfH4cU9sa8p-6" target="Tj51BT58kHfH4cU9sa8p-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="618" as="sourcePoint" />
+            <mxPoint x="210" y="568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tj51BT58kHfH4cU9sa8p-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.219;exitY=0.056;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319" y="609" as="sourcePoint" />
+            <mxPoint x="319" y="528" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
