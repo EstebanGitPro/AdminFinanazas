@@ -1,14 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T04:43:14.267Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="d_ErK4tyqr4czVVt0gPx" version="22.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-12T04:50:17.918Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="dpriw4-eus82V3nhX09j" version="22.0.4" type="github" pages="2">
   <diagram name="Página-1" id="vCq6zs7CrHMmV6JF6-9W">
-    <mxGraphModel dx="2010" dy="979" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2874" dy="1393" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Tj51BT58kHfH4cU9sa8p-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-793" y="-273" width="2108" height="2316" as="geometry" />
-        </mxCell>
+        <UserObject label="https://meet.google.com/nyh-pgcb-acd" link="https://meet.google.com/nyh-pgcb-acd" id="Tj51BT58kHfH4cU9sa8p-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+            <mxGeometry x="-733" y="-312" width="2108" height="2316" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="Tj51BT58kHfH4cU9sa8p-2" value="&lt;h1&gt;Servidores en la Nube&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="250" y="-238" width="403" height="75" as="geometry" />
+          <mxGeometry x="134" y="-288" width="403" height="75" as="geometry" />
         </mxCell>
         <mxCell id="Tj51BT58kHfH4cU9sa8p-3" value="&#xa;Escalabilidad&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="94.75" y="-140" width="356" height="1925" as="geometry" />
@@ -197,10 +199,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SgmyFsETjONuVWpeVux2-51" value="&lt;h1&gt;Entradas desde el entorno:&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-455" y="-209" width="470" height="46" as="geometry" />
+          <mxGeometry x="-480" y="-156" width="470" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="SgmyFsETjONuVWpeVux2-52" value="Numero de Usuarios" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-319" y="-39" width="228" height="47" as="geometry" />
+        <mxCell id="SgmyFsETjONuVWpeVux2-52" value="Tasa de usuarios" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-353" y="-78" width="228" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="sp_XJOnR3usTMsfJuHCN-1" value="&lt;h1&gt;Acciones Sobre El Entorno&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="719" y="-173" width="470" height="46" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
