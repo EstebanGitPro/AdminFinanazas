@@ -1,12 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T04:50:17.918Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="dpriw4-eus82V3nhX09j" version="22.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-12T04:51:04.651Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="OBurXPtX2dYXbdL8ONwb" version="22.0.4" type="github" pages="2">
   <diagram name="Página-1" id="vCq6zs7CrHMmV6JF6-9W">
-    <mxGraphModel dx="2874" dy="1393" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2508" dy="1218" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <UserObject label="https://meet.google.com/nyh-pgcb-acd" link="https://meet.google.com/nyh-pgcb-acd" id="Tj51BT58kHfH4cU9sa8p-1">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-            <mxGeometry x="-733" y="-312" width="2108" height="2316" as="geometry" />
+            <mxGeometry x="-733" y="-316" width="2011" height="2320" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="Tj51BT58kHfH4cU9sa8p-2" value="&lt;h1&gt;Servidores en la Nube&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" parent="1" vertex="1">
