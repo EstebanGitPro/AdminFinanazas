@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T21:29:31.828Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="C1wxyyZh0vJ0tohxWE-u" version="22.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-17T21:31:56.997Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="E9nZn8zJF__X7yqrMwW5" version="22.0.4" type="github" pages="2">
   <diagram name="Página-1" id="vCq6zs7CrHMmV6JF6-9W">
     <mxGraphModel dx="4507" dy="2570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -363,7 +363,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8uViFbAy0dLPO0oPSzOy" name="Página-2">
-    <mxGraphModel dx="1272" dy="931" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1853" dy="1285" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -377,9 +377,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Amv4nY0S_jwY3DtbOs5X-19" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Amv4nY0S_jwY3DtbOs5X-1" target="Amv4nY0S_jwY3DtbOs5X-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Amv4nY0S_jwY3DtbOs5X-1" value="CARGA DE TRABAJO" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="57" y="175" width="120" height="60" as="geometry" />
         </mxCell>
@@ -389,6 +386,9 @@
               <mxPoint x="388" y="319" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Amv4nY0S_jwY3DtbOs5X-24" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Amv4nY0S_jwY3DtbOs5X-2" target="Amv4nY0S_jwY3DtbOs5X-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Amv4nY0S_jwY3DtbOs5X-2" value="ESCALABILIDAD" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="226" y="172" width="132" height="66" as="geometry" />
@@ -429,6 +429,9 @@
         <mxCell id="Amv4nY0S_jwY3DtbOs5X-7" value="TASA DE PRESUPUESTO" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="3" y="8" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Amv4nY0S_jwY3DtbOs5X-29" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Amv4nY0S_jwY3DtbOs5X-8" target="Amv4nY0S_jwY3DtbOs5X-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Amv4nY0S_jwY3DtbOs5X-8" value="NIVEL DE SATISFACCION DEL CLIENTE" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="444" y="172" width="120" height="60" as="geometry" />
         </mxCell>
@@ -455,6 +458,38 @@
               <mxPoint x="196" y="263" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Amv4nY0S_jwY3DtbOs5X-28" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Amv4nY0S_jwY3DtbOs5X-25" target="Amv4nY0S_jwY3DtbOs5X-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="347" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Amv4nY0S_jwY3DtbOs5X-25" value="BUENO" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="449" y="328" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Amv4nY0S_jwY3DtbOs5X-26" value="POR MEJORAR" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="446" y="49" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Amv4nY0S_jwY3DtbOs5X-33" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Amv4nY0S_jwY3DtbOs5X-27" target="Amv4nY0S_jwY3DtbOs5X-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-200" y="411" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Amv4nY0S_jwY3DtbOs5X-27" value="CONTINUAR CON EL PROCESAMIENTO" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="21" y="454" width="174" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="Amv4nY0S_jwY3DtbOs5X-32" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Amv4nY0S_jwY3DtbOs5X-30" target="Amv4nY0S_jwY3DtbOs5X-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Amv4nY0S_jwY3DtbOs5X-30" value="AUMENTO DE RECURSOS." style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-136" width="174" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="Amv4nY0S_jwY3DtbOs5X-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.571;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Amv4nY0S_jwY3DtbOs5X-26" target="Amv4nY0S_jwY3DtbOs5X-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
