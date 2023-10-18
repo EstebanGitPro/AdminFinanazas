@@ -1,9 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T00:22:56.252Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="TmfHm2jsY6nIr_mJnRw-" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T00:36:20.821Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="pbrpjRUngnzVdN6v6Qjt" version="22.0.4" type="github">
   <diagram name="Página-1" id="AysnGzca34H0bqwZpEvq">
-    <mxGraphModel dx="872" dy="531" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2142" dy="817" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="18RmB45_xBtrGWVuBtpT-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-467" y="34" width="345" height="522" as="geometry" />
+        </mxCell>
+        <mxCell id="18RmB45_xBtrGWVuBtpT-4" value="Datos del vehículo" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-388" y="174" width="176" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="18RmB45_xBtrGWVuBtpT-5" value="CRECIENTE Y DECRECIENTE" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-382.5" y="372" width="176" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="18RmB45_xBtrGWVuBtpT-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.219;exitY=0.056;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="18RmB45_xBtrGWVuBtpT-5" target="18RmB45_xBtrGWVuBtpT-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-407.5" y="611" as="sourcePoint" />
+            <mxPoint x="-357.5" y="561" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18RmB45_xBtrGWVuBtpT-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.219;exitY=0.056;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-260.5" y="375.5" as="sourcePoint" />
+            <mxPoint x="-260.5" y="294.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18RmB45_xBtrGWVuBtpT-8" value="&lt;h1&gt;Sietema Transito&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-448.5" y="55" width="319.5" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="18RmB45_xBtrGWVuBtpT-9" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-108" y="30" width="345" height="522" as="geometry" />
+        </mxCell>
+        <mxCell id="18RmB45_xBtrGWVuBtpT-10" value="configuración de las calles, avenidas, troncales y cruces de la ciudad." style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-29" y="170" width="176" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="18RmB45_xBtrGWVuBtpT-11" value="CRECIENTE Y DECRECIENTE" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-23.5" y="368" width="176" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="18RmB45_xBtrGWVuBtpT-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.219;exitY=0.056;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="18RmB45_xBtrGWVuBtpT-11" target="18RmB45_xBtrGWVuBtpT-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-48.5" y="607" as="sourcePoint" />
+            <mxPoint x="1.5" y="557" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18RmB45_xBtrGWVuBtpT-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.219;exitY=0.056;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="98.5" y="371.5" as="sourcePoint" />
+            <mxPoint x="98.5" y="290.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18RmB45_xBtrGWVuBtpT-14" value="&lt;h1&gt;sistema de trafico&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-89.5" y="51" width="280.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="18RmB45_xBtrGWVuBtpT-16" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="260" y="24" width="345" height="522" as="geometry" />
+        </mxCell>
+        <mxCell id="18RmB45_xBtrGWVuBtpT-17" value="configuración de las calles, avenidas, troncales y cruces de la ciudad." style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="339" y="164" width="176" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="18RmB45_xBtrGWVuBtpT-18" value="CRECIENTE Y DECRECIENTE" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="344.5" y="362" width="176" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="18RmB45_xBtrGWVuBtpT-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.219;exitY=0.056;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="18RmB45_xBtrGWVuBtpT-18" target="18RmB45_xBtrGWVuBtpT-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.5" y="601" as="sourcePoint" />
+            <mxPoint x="369.5" y="551" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18RmB45_xBtrGWVuBtpT-20" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.219;exitY=0.056;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="466.5" y="365.5" as="sourcePoint" />
+            <mxPoint x="466.5" y="284.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18RmB45_xBtrGWVuBtpT-21" value="&lt;h1&gt;Sistema Vial&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="278.5" y="45" width="319.5" height="86" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
