@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T02:20:29.570Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="xwF2gj4-BtLgw_V_VX-D" version="22.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-18T02:21:01.557Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="Fo8ZE-_raJBpyElNuepx" version="22.0.4" type="github" pages="2">
   <diagram name="Página-1" id="AysnGzca34H0bqwZpEvq">
     <mxGraphModel dx="4107" dy="1770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -285,7 +285,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tjRLTmEceI8Xq8NQNkFy-2" value="TIPO DE VIA" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="262" y="421" width="120" height="60" as="geometry" />
+          <mxGeometry x="250" y="621" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xhABk6iFLGQw0kCQ2SYS-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.946;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="hcGlZSRIl-_x1UAnIfw8-4" target="hcGlZSRIl-_x1UAnIfw8-3">
           <mxGeometry relative="1" as="geometry">
